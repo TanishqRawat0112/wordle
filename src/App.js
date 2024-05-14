@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>WORDLE</h1>
+      <h1>The WORDLE</h1>
       {solution && <Wordle solution={solution}/>}
       {/* {solution && <div>Solution - {solution}</div>} */}
     </div>
